@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse(emails)
-    emails.split(", " && " ").uniq
+    emails.split(/, | /).uniq
   end
 
 end
