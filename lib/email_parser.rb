@@ -9,8 +9,9 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
+    parser = EmailParser.new
   end
-  
+
   def parse
 
   end
